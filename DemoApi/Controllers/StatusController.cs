@@ -15,7 +15,8 @@ namespace DemoApi.Controllers
             var response = new
             {
                 Message = "All good!",
-                ServerTime = DateTime.Now
+                ServerTime = DateTime.Now,
+                Version = "1.0.1"
             };
 
             return Ok(response);
